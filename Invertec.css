@@ -1,0 +1,166 @@
+body {
+    background-image: url('hojas.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+section {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.content-box {
+    border: 0px solid #000;
+    padding: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.image-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.image-container {
+    text-align: center;
+    overflow: hidden;
+    flex: 1;
+    max-width: 100%;
+    margin: 2%;
+    width: 300%
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border: 0px solid #fff;
+    transform: scale(1);
+    transition: transform 0.5s ease-in-out;
+}
+
+.image-container:hover img {
+    transform: scale(1.2);
+        align-items: center
+}
+
+
+.animated-button {
+    transition: background-color 0.3s ease; 
+}
+.animated-button {
+    background-color: #1C6758;
+    color: #fff;
+    
+}
+
+
+.animated-button:hover {
+    background-color: #72CD90 
+}
+
+
+
+.apple-header {
+    background-color: #1C6758;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.apple-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; 
+    display: flex;
+    justify-content: center; 
+}
+
+.apple-nav li {
+    display: inline;
+    margin-right: 70px;
+}
+.apple-nav li:nth-child(1),
+.apple-nav li:nth-child(2),
+.apple-nav li:nth-child(3),
+.apple-nav li:nth-child(4) 
+{
+    margin-top: 50px; 
+    margin-bottom: -90px;
+}
+.parrafo-nav {
+font-size:15px
+}
+.parrafo2-nav{
+    font-size:15px
+}
+.titulo-nav{
+    font-size:20px
+}
+.titulo2-nav{
+    font-size:20px
+}
+.apple-nav a {
+    
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    border: 2px solid #fff; 
+    padding: 20px 30px; 
+    border-radius: 0px; 
+    margin-right: 0px;
+    margin-left: 4px
+}
+
+
+.logo-container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    margin-top: -30px; 
+}
+
+.apple-logo img {
+    max-width: 220px;
+    height: auto;
+}
+
+.salesianito-logo {
+    order: 2; 
+}
+
+.invertec-logo {
+    order: 1; 
+}
+
+.apple-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.apple-footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; 
+}
+
+.apple-footer li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.apple-footer a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
